@@ -1,0 +1,120 @@
+
+/* FORM ELEMENTS */
+input[type="text"] {
+    width: 420px;
+    max-width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+    color: #757575;
+}
+
+input[type="password"] {
+    width: 420px;
+    max-width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+}
+
+input[type="number"] {
+    width: 420px;
+    max-width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+}
+
+input[type="date"] {
+    width: 420px;
+    max-width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+}
+
+input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+    transform: translateY(3px);
+    appearance: none;
+    background: #ededed;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    border: 6px solid #111111;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 4px;
+    transform: translateY(3px);
+    appearance: none;
+    background: #ededed;
+}
+
+input[type="checkbox"]:checked {
+    border: 5px solid #ededed;
+    background: #e90101;
+}
+
+textarea {
+    width: 520px;
+    max-width: 100%;
+    height: 140px;
+    padding: 30px;
+    border: 1px solid #cecece;
+    color: #fff;
+}
+
+select {
+    width: 420px;
+    max-width: 100%;
+    height: 70px;
+    padding: 0 30px;
+    border: 1px solid #cecece;
+    color: #757575;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: linear-gradient(45deg, transparent 50%, gray 50%), linear-gradient(135deg, gray 50%, transparent 50%), linear-gradient(to right, #ccc, #ccc);
+    background-position: calc(100% - 30px) 34px, calc(100% - 25px) 34px, calc(100% - 3.5em) 15px;
+    background-size: 5px 5px, 5px 5px, 1px 40px;
+    background-repeat: no-repeat;
+}
+
+input[type="submit"] {
+    height: 70px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #e90101;
+    border: none;
+    padding: 0 50px;
+}
+
+button[type="submit"] {
+    height: 70px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #e90101;
+    border: none;
+    padding: 0 50px;
+}
+
+button[type="submit"] i {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 18px;
+    transform: translateY(2px);
+}

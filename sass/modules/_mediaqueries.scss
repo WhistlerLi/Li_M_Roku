@@ -1,0 +1,372 @@
+
+/* CUSTOM CONTAINER */
+@media (min-width: 1170px) {
+    .container {
+        max-width: 1100px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1260px;
+    }
+}
+
+
+/* RESPONSIVE MEDIUM  */
+@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+    .category-thumb .category-content .name {
+        font-size: 22px;
+    }
+
+    .category-thumb .category-content {
+        padding: 15px;
+    }
+
+    .side-content.right {
+        padding-left: 0;
+    }
+
+    .side-content h2 {
+        font-size: 34px;
+    }
+
+    .price-box {
+        width: 100%;
+        margin: 0;
+    }
+
+    .price-box .note u {
+        width: 100%;
+        display: block;
+    }
+
+    .footer .call-us strong {
+        width: 100%;
+        display: block;
+    }
+
+    .contact-box {
+        padding: 50px 10px;
+    }
+
+    .sidebar .widget {
+        padding-left: 30px;
+    }
+
+    .sidebar .widget .widget-title:before {
+        left: -31px;
+    }
+}
+
+/* RESPONSIVE TABLET  */
+@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
+    .navbar .site-menu ul li {
+        margin: 0 10px;
+    }
+
+    .category-thumb {
+        margin: 15px 0;
+    }
+
+    .side-image.full-left {
+        width: 100vw;
+        float: left;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 50px;
+    }
+
+    .price-box {
+        padding: 30px;
+        margin: 15px 0;
+    }
+
+    .price-box .price b {
+        font-size: 50px;
+    }
+
+    .membership {
+        margin-bottom: 50px;
+    }
+
+    .get-started-box {
+        padding: 50px 0;
+    }
+
+    .sidebar {
+        padding-left: 0;
+        margin-top: 50px;
+    }
+
+    .sidebar .widget {
+        border-left: none;
+        padding-left: 0;
+    }
+
+    .sidebar .widget .widget-title:before {
+        display: none;
+    }
+
+    .icon-box p {
+        padding: 0;
+    }
+
+    .icon-box h5 {
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    .col-lg-4.col-md-6:last-child .member-box {
+        margin-top: 50px;
+    }
+
+    .col-lg-6:nth-child(1) .testimonial {
+        margin-bottom: 50px;
+    }
+
+    .footer {
+        padding-top: 50px;
+    }
+
+    .footer .widget-title {
+        margin-top: 40px;
+    }
+}
+
+/* RESPONSIVE MOBILE */
+@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+    main {
+        margin-top: 0 !important;
+    }
+
+    .search-box {
+        display: none;
+    }
+
+    .navbar {
+        padding: 30px 15px;
+        position: absolute;
+    }
+
+    .navbar .site-menu {
+        display: none;
+    }
+
+    .navbar .user-menu {
+        display: none;
+    }
+
+    .navbar .hamburger-menu {
+        display: inline-block;
+    }
+
+    .slider {
+        position: static;
+    }
+
+    .page-header {
+        position: static;
+    }
+
+    .slider .main-slider .swiper-slide .slide-inner {
+        background-position: right center !important;
+    }
+
+    .slider .main-slider .swiper-slide .container .name {
+        font-size: 50px;
+    }
+
+    .slider .main-slider .swiper-slide .container .name strong {
+        font-size: 50px;
+    }
+
+    .slider .main-slider .swiper-slide .container .description {
+        display: none;
+    }
+
+    .slider .main-slider .swiper-slide .container .features li:first-child {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .slider .main-slider .swiper-slide .container .features li:last-child {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .slider .main-slider .swiper-slide .container .play-btn {
+        padding: 0 25px;
+    }
+
+    .slider .swiper-pagination {
+        display: none;
+    }
+
+    .section-title h2 {
+        font-size: 34px;
+    }
+
+    .side-content h2 {
+        font-size: 26px;
+    }
+
+    .side-content .icon-list li figure {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .side-content .icon-list li .content {
+        width: 100%;
+    }
+
+    .video-thumb .video-content .age {
+        display: none;
+    }
+
+    .video-thumb .video-image .hd {
+        display: none;
+    }
+
+    .testimonial h2 {
+        font-size: 32px;
+        padding-right: 0;
+    }
+
+    .testimonial blockquote {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    .testimonial figure {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .testimonial figure img:nth-child(1) {
+        width: 80px;
+        height: 80px;
+    }
+
+    .testimonial figure img:nth-child(2) {
+        width: 50px;
+        height: 50px;
+    }
+
+    .testimonial h6 {
+        width: 100%;
+    }
+
+    .testimonial h6 small {
+        width: 100%;
+    }
+
+    .mobile-menu .site-menu ul li a {
+        font-size: 9vw;
+    }
+
+    .get-started-box form {
+        flex-wrap: wrap;
+    }
+
+    .get-started-box form input[type="email"] {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .news-box .content.overlap {
+        position: static;
+        background: none;
+        padding: 0;
+        color: #111111;
+    }
+
+    .news-box .content h3 {
+        font-size: 28px;
+    }
+
+    .news-box .content h3 a {
+        color: #111111;
+    }
+
+    .news-box .content blockquote {
+        padding: 20px;
+    }
+
+    .news-box .content .half-left-image {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .news-box .content .half-right-image {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .pagination .page-item .page-link {
+        padding: 0 30px;
+    }
+
+    .icon-box {
+        margin-top: 30px;
+    }
+
+    .cta-form h2 {
+        font-size: 30px;
+    }
+
+    .cta-form {
+        padding: 30px;
+    }
+
+    .cta-form form input[type="submit"] {
+        width: 100%;
+    }
+
+    .member-box {
+        width: 100%;
+        margin: 30px 0;
+    }
+
+    .col-lg-4.col-md-6:last-child .member-box {
+        margin-top: 30px;
+    }
+
+    .devices-box {
+        padding: 30px;
+    }
+
+    .contact-form .form-group:nth-child(1) {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .contact-form .form-group:nth-child(2) {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .support-box {
+        padding: 30px;
+    }
+
+    .membership .or a {
+        width: 100%;
+        margin-right: 0;
+        margin: 5px 0;
+    }
+
+    .footer .language {
+        margin-bottom: 50px;
+    }
+
+    .footer .widget-title {
+        margin-top: 10px;
+    }
+
+    .footer .bottom-bar .container span:nth-child(2) {
+        margin-left: 0;
+    }
+}
