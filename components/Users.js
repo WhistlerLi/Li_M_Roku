@@ -11,12 +11,12 @@ export default {
   <div class="row" style="width: 70%;margin: auto;">
     <div class="col-6">
       <router-link to="/adult">
-        <img src="images/images/age.svg" style="width: 180px;margin: auto;display: block"/>
+        <img src="static/images/man.png" style="width: 180px;margin: auto;display: block"/>
       </router-link>
     </div>
     <div class="col-6">
       <router-link to="/child">
-        <img src="images/images/baby.svg" style="width: 180px;margin: auto;display: block;"/>
+        <img src="static/images/child.png" style="width: 180px;margin: auto;display: block;"/>
       </router-link>
     </div>
   </div>
