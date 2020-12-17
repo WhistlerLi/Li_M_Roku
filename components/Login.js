@@ -12,14 +12,14 @@ export default {
     </form>
   </div>
   <!-- end mobile-search -->
-  <a href="account.html" class="button-account"><i class="lni lni-user"></i> Login </a>
+  <a href="#" class="button-account"><i class="lni lni-user"></i> Login </a>
     <!-- end button-account --> 
  <div class="site-menu">
     <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="movies.html">MOVIES</a></li>
-      <li><a href="tv-shows.html">TV SHOWS</a></li>
-      <li><a href="tips.html">TIPS</a></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">MOVIES</a></li>
+      <li><a href="#">TV SHOWS</a></li>
+      <li><a href="#">TIPS</a></li>
     </ul>
   </div>
   <!-- end site-menu -->
@@ -32,35 +32,35 @@ export default {
   <!-- end logo -->
   <div class="site-menu">
     <ul>
-      <li><a href="index.html">HOME</a></li>
-      <li><a href="movies.html">MOVIES</a></li>
-      <li><a href="tv-shows.html">TV SHOWS</a></li>
-      <li><a href="tips.html">TIPS</a></li>
+      <li><a href="#">HOME</a></li>
+      <li><a href="#">MOVIES</a></li>
+      <li><a href="#">TV SHOWS</a></li>
+      <li><a href="#">TIPS</a></li>
     </ul>
   </div>
   <!-- end site-menu -->
   <div class="user-menu">
     <div class="navbar-search"> <i class="lni lni-search-alt"></i> </div>
     <!-- end navbar-search -->
-    <div class="navbar-notify"> <i class="lni lni-alarm"></i><b>2</b>
-      <div class="notify-dropdown">
-        <div class="total-notify">
-          <h6>Notification</h6>
-          <span>3</span> </div>
-        <!-- end total-notify -->
-        <ul>
-          <li>
-            <p><u>Marcus</u> download 2000+ Simple Line Icons and Explore</p>
-            <span>2 Days</span></li>
-          <li>
-            <p>Added new movie <u>Afterlife</u> Cheatsheet to Start Using With Your Projects.</p>
-            <span>3 Days</span></li>
-        </ul>
-      </div>
-      <!-- end notify-dropdown --> 
-    </div>
+<!--    <div class="navbar-notify"> <i class="lni lni-alarm"></i><b>2</b>-->
+<!--      <div class="notify-dropdown">-->
+<!--        <div class="total-notify">-->
+<!--          <h6>Notification</h6>-->
+<!--          <span>3</span> </div>-->
+<!--        &lt;!&ndash; end total-notify &ndash;&gt;-->
+<!--        <ul>-->
+<!--          <li>-->
+<!--            <p><u>Marcus</u> download 2000+ Simple Line Icons and Explore</p>-->
+<!--            <span>2 Days</span></li>-->
+<!--          <li>-->
+<!--            <p>Added new movie <u>Afterlife</u> Cheatsheet to Start Using With Your Projects.</p>-->
+<!--            <span>3 Days</span></li>-->
+<!--        </ul>-->
+<!--      </div>-->
+<!--      &lt;!&ndash; end notify-dropdown &ndash;&gt; -->
+<!--    </div>-->
     <!-- end navbar-notify -->
-    <div class="navbar-account"> <a href="account.html">ACCOUNT <i class="lni lni-user"></i> </a></div>
+<!--    <div class="navbar-account"> <a href="#">ACCOUNT <i class="lni lni-user"></i> </a></div>-->
     <!-- end navbar-account --> 
   </div>
   <!-- end user-menu --> 
@@ -93,7 +93,7 @@ export default {
 </section>
 <header class="page-header" style="margin:0 0 0;">
  <div class="container">
- <h1>Roku</h1>
+ <h1>Login</h1>
  </div>
  </header>
 <!-- end page-header -->
@@ -129,7 +129,6 @@ export default {
     <!-- end col-7 -->
     <div class="col-lg-5">
     <figure class="side-image"> 
-     <img src="static/images/side-image02.png" alt="Image">
      </figure>
      <!-- end side-image -->
     </div>
@@ -160,30 +159,30 @@ export default {
         <div class="col-lg-2 offset-lg-1 col-md-4">
           <h6 class="widget-title">DIGIFLEX</h6>
           <ul class="footer-menu">
-            <li><a href="digiflex.html">Digiflex</a></li>
-            <li><a href="devices.html">Devices</a></li>
-            <li><a href="tips.html">Tips</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Digiflex</a></li>
+            <li><a href="#">Devices</a></li>
+            <li><a href="#">Tips</a></li>
+            <li><a href="#">Contact</a></li>
           </ul>
         </div>
         <!-- end col-4 -->
         <div class="col-lg-2 col-md-4">
           <h6 class="widget-title">SUPPORT</h6>
           <ul class="footer-menu">
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="help-center.html">Help Center</a></li>
-            <li><a href="account.html">Account</a></li>
-            <li><a href="support.html">Support <i class="lni lni-question-circle"></i></a></li>
-            <li><a href="media-center.html">Media Center</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">Support <i class="lni lni-question-circle"></i></a></li>
+            <li><a href="#">Media Center</a></li>
           </ul>
         </div>
         <!-- end col-4 -->
         <div class="col-lg-2 col-md-4">
           <h6 class="widget-title">POLICIES</h6>
           <ul class="footer-menu">
-            <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            <li><a href="terms-agreement.html">Terms & Agreement</a></li>
-            <li><a href="legal-notices.html">Legal Notices</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms & Agreement</a></li>
+            <li><a href="#">Legal Notices</a></li>
           </ul>
         </div>
         <!-- end col-4 --> 
