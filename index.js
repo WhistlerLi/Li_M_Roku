@@ -1,11 +1,15 @@
 import Users from '../components/Users.js';
 import Login from '../components/Login.js';
+import Adult from '../components/Adult.js';
+import Child from '../components/Child.js';
 
 let router = new VueRouter({
         routes: [
             {path: '/', redirect: {name: "login"}},
             {path: '/login', name: "login", component: Login},
             {path: '/users', name: 'users', component: Users},
+            {path: '/adult', name: 'adult', component: Adult},
+            {path: '/child', name: 'child', component: Child},
         ]
     })
 ;
@@ -31,18 +35,12 @@ const vm = new Vue({
     },
 
     created: function () {
-        // do a session check and set authenticated to true if the session still exists
-        // if the cached user exists, then just navigate to their user home page
-
-        // the localstorage session will persist until logout
-
         if (localStorage.getItem("cachedUser")) {
-          let user = JSON.parse(localStorage.getItem("cachedUser"));
-          this.authenticated = true;
-          // params not setting properly, so this route needs to be debugged a bit...
-          this.$router.push({ name: "home", params: { currentuser: user }});
+            let user = JSON.parse(localStorage.getItem("cachedUser"));
+            this.authenticated = true;
+            this.$router.push({name: "home", params: {currentuser: user}});
         } else {
-          this.$router.push({ path: "/login"} );
+            this.$router.push({path: "/login"});
         }
     },
 
@@ -54,17 +52,14 @@ const vm = new Vue({
         },
 
         popError(errorMsg) {
-            // set the error message string and show the toast notification
             this.toastmessage = errorMsg;
             $('.toast').toast('show');
         },
 
         logout() {
-            // delete local session
             if (localStorage.getItem("cachedUser")) {
                 localStorage.removeItem("cachedUser");
             }
-            // push user back to login page
             this.$router.push({path: "/login"});
             this.authenticated = false;
 
