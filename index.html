@@ -15,13 +15,11 @@
 </head>
 <body>
 <main id="app">
-  <!-- first thing in component templates should be a container -->
   <router-view @authenticated="setAuthenticated" @autherror="popError" :liveuser="user"></router-view>
 
 </main>
 
 <script type="module" src="static/js/jquery.min.js"></script>
-<!--<script type="module" src="js/scripts.js"></script>-->
 <script type="module" src="index.js"></script>
 
 <script>
