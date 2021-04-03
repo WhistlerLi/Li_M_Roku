@@ -11,3 +11,19 @@ You should have the following programs installed:
 
 * MAMP/ WAMP
 
+### Built with
+* HTML 
+* CSS 
+* SASS 
+* JavaScript 
+* Vue.js 
+* Socket.io 
+* Node.js 
+* Express.js
+
+
+### Authors
+Mengyang Li
+
+### License
+Fanshawe College Mengyang Li
