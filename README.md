@@ -13,8 +13,8 @@ You should have the following programs installed:
 
 
 Import database 
-User name：user
-Password：123456
+* User name：user
+* Password：123456
 
 ### Built with
 * HTML 
