@@ -13,7 +13,7 @@ You should have the following programs installed:
 
 
 Import database 
-* User name：user
+* User name：user1
 * Password：123456
 
 ### Built with
