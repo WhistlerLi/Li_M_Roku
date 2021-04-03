@@ -11,6 +11,11 @@ You should have the following programs installed:
 
 * MAMP/ WAMP
 
+
+Import database 
+User name：user
+Password：123456
+
 ### Built with
 * HTML 
 * CSS 
