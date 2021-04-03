@@ -30,7 +30,7 @@ Import database
 
 
 ### Authors
-Mengyang Li
+Designer&Develper: Mengyang Li
 
 ### License
 Fanshawe College Mengyang Li
